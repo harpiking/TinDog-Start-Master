@@ -1,0 +1,167 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: left;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*title  image*/
+.phone-dog {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/*navbar styles*/
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  /* margin: 0 10px 10px 0; */
+}
+
+/*download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*features*/
+#features {
+  line-height: 1.5;
+  padding: 7% 15%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 4.5%;
+}
+
+.features-p {
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #8f8f8f;
+}
+
+.check {
+  color: #ef8172;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.check:hover {
+  color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.testimonial-image {
+  width: 35%;
+  border-radius: 100%;
+  padding: 5%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.row {
+  margin: auto;
+}
+
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 4%;
+}
+ /* cta */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.cta {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-bottom: 2%;
+}
+
+#footer {
+  padding:5%;
+  background-color: white;
+  font-size: 0.75rem;
+  font-family:  'Ubuntu', sans-serif;
+}
+
+.footer-font {
+  margin: 5px;
+}
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
